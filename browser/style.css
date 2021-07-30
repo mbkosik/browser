@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(228, 228, 228);
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    border: 2px solid black;
+    box-shadow: 6px 6px 10px rgb(0 0 0 / 0.2);
+    background-color: white;
+}
+
+.search__header {
+    flex-basis: 6.5em;
+    background-image: url(chilled-glass-cola-drink-ice-600w-1998736397.png);
+    padding: 10px;
+}
+
+.search__title {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.search__input {
+    position: relative; 
+    top: 1.8em;
+    width: calc(100% - 20px);
+    line-height: 30px;
+    border: none;
+    padding: 0 10px
+}
+
+.search__content {
+    margin: 20px 40px;
+}
+
+.content__list-title {
+    margin: 0 0 15px 0;
+}
+
+.content__list {
+    list-style-type: none;
+}
+
+.content__list .list__item {
+    padding: 6px 0;
+    border-bottom: 1px solid lightgray;
+}
+
+.content__list .list__item:last-child {
+    border-bottom: 0;
+}
